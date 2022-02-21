@@ -12,7 +12,7 @@ function clickedBtn () {
     }else if (guessNumber > randomNo) {
         display.innerHTML = "Guess too high";
     }else{
-        guessNumber.innerHTML = `Correct, your secreet number is ${guessNumber}`;
+        display.innerHTML = `Correct, your secreet number is ${guessNumber}`;
 
     }
     setTimeout(function(){
