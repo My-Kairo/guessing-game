@@ -3,27 +3,36 @@
 }
 
 body {
-    /* background-color: rgb(209, 127, 241); */
-    /* background-color: blue; */
-    background-image: url(https://image.shutterstock.com/image-vector/vector-realistic-isolated-neon-sign-260nw-1181047573.jpg);
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
+    background-color: rgb(243, 175, 74);
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: rgb(102, 82, 18) solid;
+    border-radius: 1%;
+    box-shadow: 5px 4px 4px 7px rgb(88, 61, 3);
+    box-shadow: rgb(104, 72, 24);
+    margin: auto;
+    font-family: cursive;
+    height: 75vh;
+    margin-top: 5%;
 }
 
 .game {
     position: absolute;
     text-align: center;
     display: flex;
-    flex-direction: column;
     width: 50%;
-    /* border: 1px solid black; */
+    padding: 7px;
+    flex-direction: column;
     border-radius: 1%;
     box-shadow: rgb(48, 48, 151);
-    top: 50%;
-    bottom: 50%;
-    /* left: 50%; */
-    right: 25%;
+    top: 15%;
+    bottom: 50%; 
+    left: 24%;
+    right: 50%;
 }
 h1 {
     color: rgb(57, 57, 235);
@@ -38,9 +47,9 @@ h1 {
 .display {
     /* background-color: rgb(57, 57, 235); */
     color: rgb(57, 57, 235);
-    top: 70%;
+    top: 50%;
     bottom: 20%;
-    right: 50%;
+    right: 48%;
     position: absolute;
     text-align: center;
     flex-direction: column;

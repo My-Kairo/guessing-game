@@ -7,6 +7,10 @@ const display = document.querySelector(".display");
 
 function clickedBtn () {
     const guessNumber = Number(guess_no.value);
+    if(guessNumber < 1 || guessNumber > 100){
+        display.innerHTML = "Number out of context";
+        return 
+    }
     if ( guessNumber < randomNo) {
         display.innerHTML = "Guess too low";
     }else if (guessNumber > randomNo) {
